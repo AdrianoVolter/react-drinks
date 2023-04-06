@@ -5,15 +5,15 @@ import { Orders } from "../../components/Orders/Orders";
 
 export const UserProfile = () => {
   const [pessoa, setPessoa] = useState({
-    nome: "Michael Nascimento",
-    gihub: "https://github.com/mikansc.png",
+    nome: "Adriano Jose Volter",
+    gihub: "https://github.com/AdrianoVolter.png",
   });
 
   return (
     <div className="profile__container">
       <div className="profile__header">
         <div className="profile__image-container">
-          <img src="https://github.com/mikansc.png" alt="Michael" />
+          <img src="https://github.com/AdrianoVolter.png" alt="Adriano" />
         </div>
         <div className="profile__user-data">
           <p>bem vindo de volta,</p>

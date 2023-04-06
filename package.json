@@ -7,7 +7,7 @@
     "server": "json-server --port 8080 --no-cors --watch data/products.json",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview "
   },
   "dependencies": {
     "json-server": "^0.17.3",
